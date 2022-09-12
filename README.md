@@ -1,4 +1,4 @@
-# Woony Talk Tag Custom Template for Google Tag Manager
+# Google Tag Manager for Woony Talk
 
 ### How to install
 
