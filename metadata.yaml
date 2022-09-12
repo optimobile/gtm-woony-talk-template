@@ -1,5 +1,5 @@
 homepage: "https://www.woony.me"
 documentation: "https://www.woony.me/manuals"
 versions:
-  - sha: 599fff1388058c79984d6c0ebdd223d261bb6c84
+  - sha: 1ad0c71b15c2996493f793406abc8d5268c596f6
     changeNotes: Initial Version
