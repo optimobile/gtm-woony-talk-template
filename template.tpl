@@ -1,10 +1,3 @@
-___TERMS_OF_SERVICE___
-
-By creating or modifying this file you agree to Google Tag Manager's Community
-Template Gallery Developer Terms of Service available at
-https://developers.google.com/tag-manager/gallery-tos (or such other URL as
-Google may provide), as modified from time to time.
-
 ___INFO___
 
 {
@@ -53,9 +46,9 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "TEXT",
     "name": "version",
-    "displayName": "Widget version (default is 0.2.7)",
+    "displayName": "Widget version",
     "simpleValueType": true,
-    "defaultValue": "0.2.7",
+    "defaultValue": "0.2.8",
     "canBeEmptyString": false,
     "valueValidators": [
       {
@@ -86,7 +79,7 @@ const log = require('logToConsole');
 const injectScript = require('injectScript');
 const encodeUriComponent = require('encodeUriComponent');
 const queryPermission = require('queryPermission');
-const widgetBundleLoaderUrl = 'https://optimobile.se/downloads/installation/woony.widget.install.production.js?ver=' + data.version + '&licenseKey=' + encodeUriComponent(data.licenseKey) + '&debugLogging=' + data.debugLogging;
+const widgetBundleLoaderUrl = 'https://optimobile.se/downloads/installation/woony.widget.install.production.js?woonyVer=' + data.version + '&licenseKey=' + encodeUriComponent(data.licenseKey) + '&debugLogging=' + data.debugLogging;
 
 const onSuccess = () => {
   log('Woony Widget : Successfully loaded');
@@ -188,5 +181,3 @@ scenarios:
 ___NOTES___
 
 Created on 17/06/2022, 07:00:04
-
-
