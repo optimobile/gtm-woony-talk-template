@@ -1,5 +1,9 @@
 homepage: "https://www.woony.me"
 documentation: "https://www.woony.me/manuals"
 versions:
-  - sha: 1ad0c71b15c2996493f793406abc8d5268c596f6
-    changeNotes: Initial Version
+# Latest version
+- sha: b490feb1b48314843eda6a157c11c9184895524e
+  changeNotes: Updated widget version handling
+# Older versions
+- sha: 1ad0c71b15c2996493f793406abc8d5268c596f6
+changeNotes: Initial Version
