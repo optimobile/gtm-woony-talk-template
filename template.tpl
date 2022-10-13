@@ -86,7 +86,7 @@ const log = require('logToConsole');
 const injectScript = require('injectScript');
 const encodeUriComponent = require('encodeUriComponent');
 const queryPermission = require('queryPermission');
-const widgetBundleLoaderUrl = 'https://optimobile.se/downloads/installation/woony.widget.install.production.js?woonyVer=' + data.version + '&licenseKey=' + encodeUriComponent(data.licenseKey) + '&debugLogging=' + data.debugLogging;
+const widgetBundleLoaderUrl = 'https://optimobile.se/downloads/installation/woony.widget.install.production.js?widgetVer=' + data.version + '&licenseKey=' + encodeUriComponent(data.licenseKey) + '&debugLogging=' + data.debugLogging;
 
 const onSuccess = () => {
   log('Woony Widget : Successfully loaded');
