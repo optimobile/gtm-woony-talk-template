@@ -2,8 +2,10 @@ homepage: "https://www.woony.me"
 documentation: "https://www.woony.me/manuals"
 versions:
 # Latest version
-- sha: b490feb1b48314843eda6a157c11c9184895524e
-  changeNotes: Updated widget version handling
+- sha: c97228f9e6fef42001c81786f539fa44ff83951f
+changeNotes: Updated URL used to inject script.
 # Older versions
+- sha: b490feb1b48314843eda6a157c11c9184895524e
+changeNotes: Updated widget version handling
 - sha: 1ad0c71b15c2996493f793406abc8d5268c596f6
 changeNotes: Initial Version
