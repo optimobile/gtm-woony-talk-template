@@ -170,19 +170,7 @@ ___WEB_PERMISSIONS___
 
 ___TESTS___
 
-scenarios:
-- name: Test 1
-  code: |-
-    const mockData = {
-      // Mocked field values
-      woonyLicenseKey: "111222333444555666777888"
-    };
-
-    // Call runCode to run the template's code.
-    runCode(mockData);
-
-    // Verify that the tag finished successfully.
-    assertApi('gtmOnSuccess').wasCalled();
+scenarios: []
 
 
 ___NOTES___
